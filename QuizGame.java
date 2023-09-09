@@ -1,5 +1,6 @@
 public class QuizGame{
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        String name = "Gift Manyo";
+        System.out.println("My Name is "+name);
     }
 }
