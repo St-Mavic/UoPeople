@@ -23,3 +23,7 @@ For this assignment, write a Java program that implements the functionality desc
 1. Code style and readability - Refers to the way the code is written, organized, and presented. It focuses on making the code clear, easy to understand, and maintainable.
 
 Use `git status` to list all new or modified files that haven't yet been committed.
+some git commands are :
+```git add .
+git commit -m "message"
+git push origin master ```
