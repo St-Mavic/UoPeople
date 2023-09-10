@@ -4,7 +4,7 @@ You are tasked with creating a Java program that simulates a simple quiz game. T
 
 For this assignment, write a Java program that implements the functionality described in the scenario. Ensure that your program is error-free, compiles successfully, and produces the expected output. Test your program with different inputs to verify its correctness.
 
-Make sure the following requirements are met:
+**Make sure the following requirements are met:**
 
 - The program should include five multiple-choice questions with four options.
 - The four options should be labeled A, B, C, and D.
@@ -21,3 +21,5 @@ Make sure the following requirements are met:
 1. Program flow and structure - It encompasses the overall structure and behavior of the program.
 1. Output - Refers to the information or feedback presented to the user based on their interactions with the program. Provide a screenshot of the output.
 1. Code style and readability - Refers to the way the code is written, organized, and presented. It focuses on making the code clear, easy to understand, and maintainable.
+
+Use `git status` to list all new or modified files that haven't yet been committed.
