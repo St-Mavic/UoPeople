@@ -24,6 +24,8 @@ For this assignment, write a Java program that implements the functionality desc
 
 Use `git status` to list all new or modified files that haven't yet been committed.
 some git commands are :
-```git add .
+```
+git add .
 git commit -m "message"
-git push origin master ```
+git push origin master
+ ```
