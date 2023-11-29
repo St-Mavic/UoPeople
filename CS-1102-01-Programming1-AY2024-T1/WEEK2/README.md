@@ -11,12 +11,12 @@ Write a Java program that accomplishes the following tasks:
 - Borrow Books
 - Return Books
 - Exit
-1.     For "Add Books":
+1. For "Add Books":
 
 Prompt the user to enter the book title, author, and quantity.
 If the book already exists in the library, update the quantity.
 If the book is new, add it to the library.
-3.     For "Borrow Books":
+1.     For "Borrow Books":
 
 Prompt the user to enter the book title and the number of books to borrow.
 Check if the requested number of books is available in the library.
