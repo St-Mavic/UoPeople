@@ -18,10 +18,10 @@ Write a Java program that accomplishes the following tasks:
 + If the book is new, add it to the library.
 1. For "Borrow Books":
 
-1.Prompt the user to enter the book title and the number of books to borrow.
-1.Check if the requested number of books is available in the library.
-1.If the books are available, update the quantity and display a success message.
-1.If not, display an error message.
+1. Prompt the user to enter the book title and the number of books to borrow.
+1. Check if the requested number of books is available in the library.
+1. If the books are available, update the quantity and display a success message.
+1. If not, display an error message.
 4.     For "Return Books":
 
 + Prompt the user to enter the book title and the number of books to return.
