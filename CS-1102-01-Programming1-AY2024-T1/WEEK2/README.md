@@ -1,7 +1,7 @@
-
+#PROGRAMMING ASSIGNMENT UNIT 2
 You are tasked with implementing a basic library system in Java. The program should allow users to add books to the library, borrow books, and return books. The system maintains a record of the available quantity of each book.
 
-Question:
+**Question:**
 
 Write a Java program that accomplishes the following tasks:
 
@@ -11,7 +11,7 @@ Write a Java program that accomplishes the following tasks:
 - Borrow Books
 - Return Books
 - Exit
-1. For "Add Books":
+2. For "Add Books":
 
 + Prompt the user to enter the book title, author, and quantity.
 + If the book already exists in the library, update the quantity.
