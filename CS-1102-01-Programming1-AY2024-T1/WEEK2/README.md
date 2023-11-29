@@ -5,7 +5,7 @@ You are tasked with implementing a basic library system in Java. The program sho
 
 Write a Java program that accomplishes the following tasks:
 
-1.** Implement the following options:**
+**1. Implement the following options:**
 
     - Add Books
     - Borrow Books
