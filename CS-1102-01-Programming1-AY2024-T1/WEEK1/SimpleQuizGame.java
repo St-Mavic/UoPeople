@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SimpleQuizGame {
     public static void main(String[] args) {
         int score = 0;
-        System.out.println("Quiz Game");
+        System.out.println("Welcome to Quiz Game");
 
         String[] questions = {
                 "1. What is the Capital of Nigeria?",
@@ -25,22 +25,32 @@ public class SimpleQuizGame {
 
         Scanner input = new Scanner(System.in);
         for (int i = 0; i < questions.length; i++) {
-            System.out.println("Question " + (i + 1));
+            System.out.println("\nQuestion " + (i + 1));
             System.out.println(questions[i]);
             System.out.println(options[i]);
-            System.out.println(" Select A, B, C, or D:");
-            char userAnswer = input.next().toUpperCase().charAt(0);
+            System.out.println("\n Select A, B, C, or D:");
+            char userAnswer;
+            while (true) {
+                String userInput = input.nextLine().toUpperCase();
+                if (userInput.length() == 1 && userInput.charAt(0) >= 'A' && userInput.charAt(0) <= 'D') {
+                    userAnswer = userInput.charAt(0);
+                    break;
+                } else {
+                    System.out.println("Invalid option. Please enter A, B, C, or D.");
+                }
+            }
             if (userAnswer == answers[i]) {
-                System.out.println("Correct!");
+                System.out.println("Correct!\n");
                 score++;
             } else {
-                System.out.println("Incorrect! The correct answer is " + answers[i]);
+                System.out.println("Incorrect! The correct answer is \n" + answers[i]);
             }
         }
-        double perc =(double) score / questions.length * 100;
-        System.out.println("\nQuiz completed");
+        double perc = (double) score / questions.length * 100;
         System.out.println("\nYou\'ve answered' " + score + " out of " + questions.length + " questions correctly.");
         System.out.println("Your total score is " + perc + "%");
+                System.out.println("\nQuiz completed Successsful");
+
         input.close();
     }
 }
