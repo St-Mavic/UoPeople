@@ -25,7 +25,7 @@ public class SimpleQuizGame {
 
         Scanner input = new Scanner(System.in);
         for (int i = 0; i < questions.length; i++) {
-            System.out.println("Question" + (i + 1));
+            System.out.println("Question " + (i + 1));
             System.out.println(questions[i]);
             System.out.println(options[i]);
             System.out.println(" Select A, B, C, or D:");
