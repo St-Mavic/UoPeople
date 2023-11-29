@@ -30,4 +30,4 @@ Write a Java program that accomplishes the following tasks:
 + If not, display an error message.
 5. Handle invalid input and display appropriate error messages.
 
-6. Implement an exit option to allow the user to exit the program. COLOR IS #0969DA
+6. Implement an exit option to allow the user to exit the program. COLOR IS `#0969DA` 
