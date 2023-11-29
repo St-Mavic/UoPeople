@@ -25,9 +25,9 @@ Write a Java program that accomplishes the following tasks:
 4. For "Return Books":
 
 + Prompt the user to enter the book title and the number of books to return.
-Check if the books being returned belong to the library system.
+* Check if the books being returned belong to the library system.
 + If they do, update the quantity and display a success message.
-+If not, display an error message.
-1.Handle invalid input and display appropriate error messages.
++ If not, display an error message.
+5. Handle invalid input and display appropriate error messages.
 
-1. Implement an exit option to allow the user to exit the program.
+6. Implement an exit option to allow the user to exit the program. COLOR IS #0969DA
