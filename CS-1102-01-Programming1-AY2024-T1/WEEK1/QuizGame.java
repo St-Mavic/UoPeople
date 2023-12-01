@@ -25,6 +25,7 @@ public class QuizGame {
       while (true) {
           answer1 = input.nextLine().toUpperCase();
 
+         //  Validating user's input  and displaying error message when necessary.
          if (answer1.equals("A") || answer1.equals("B") || answer1.equals("C") || answer1.equals("D")) {
             break;
          } else {

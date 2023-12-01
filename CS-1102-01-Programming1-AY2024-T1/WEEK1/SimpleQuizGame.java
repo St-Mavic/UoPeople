@@ -31,7 +31,10 @@ public class SimpleQuizGame {
             System.out.println("\n Select A, B, C, or D:");
             char userAnswer;
             while (true) {
+                // Accepting user input
                 String userInput = input.nextLine().toUpperCase();
+
+                // validating user input and displaying the appropriate error message.
                 if (userInput.length() == 1 && userInput.charAt(0) >= 'A' && userInput.charAt(0) <= 'D') {
                     userAnswer = userInput.charAt(0);
                     break;
